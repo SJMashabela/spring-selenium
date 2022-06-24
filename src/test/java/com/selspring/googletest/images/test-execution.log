@@ -1,0 +1,728 @@
+2022-06-15 09:32:21.915  INFO 13228 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 13228 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 09:32:21.993  INFO 13228 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 09:32:24.759  INFO 13228 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 09:32:25.017  INFO 13228 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 234 ms. Found 1 JPA repository interfaces.
+2022-06-15 09:32:29.355  INFO 13228 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 09:32:30.704  INFO 13228 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 09:32:31.346  INFO 13228 --- [TestNG-PoolService-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 09:32:31.632  INFO 13228 --- [TestNG-PoolService-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 09:32:32.355  INFO 13228 --- [TestNG-PoolService-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 09:32:32.826  INFO 13228 --- [TestNG-PoolService-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 09:32:35.286  INFO 13228 --- [TestNG-PoolService-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 09:32:35.310  INFO 13228 --- [TestNG-PoolService-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:32:38.263  INFO 13228 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 17.551 seconds (JVM running for 26.889)
+2022-06-15 09:32:40.517  INFO 13228 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:32:40.567  INFO 13228 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:32:40.584  INFO 13228 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:32:40.595  INFO 13228 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:32:40.621  INFO 13228 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:32:40.635  INFO 13228 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:32:40.656  INFO 13228 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:32:40.669  INFO 13228 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:32:48.289  INFO 13228 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:32:48.295  INFO 13228 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:32:48.291  INFO 13228 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:32:48.362  INFO 13228 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:33:01.036  INFO 13228 --- [TestNG-PoolService-2] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 09:33:01.275  INFO 13228 --- [TestNG-PoolService-3] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 09:33:02.679  INFO 13228 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 09:33:03.520  INFO 13228 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 09:33:11.053  INFO 13228 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:33:11.054  INFO 13228 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 09:33:11.073  INFO 13228 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 09:33:11.078  INFO 13228 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 09:38:15.813  INFO 13576 --- [TestNG-PoolService-2] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 13576 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 09:38:15.816  INFO 13576 --- [TestNG-PoolService-2] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 09:38:17.327  INFO 13576 --- [TestNG-PoolService-2] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 09:38:17.558  INFO 13576 --- [TestNG-PoolService-2] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 1 JPA repository interfaces.
+2022-06-15 09:38:19.649  INFO 13576 --- [TestNG-PoolService-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 09:38:20.188  INFO 13576 --- [TestNG-PoolService-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 09:38:20.481  INFO 13576 --- [TestNG-PoolService-2] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 09:38:20.696  INFO 13576 --- [TestNG-PoolService-2] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 09:38:21.426  INFO 13576 --- [TestNG-PoolService-2] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 09:38:21.897  INFO 13576 --- [TestNG-PoolService-2] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 09:38:23.510  INFO 13576 --- [TestNG-PoolService-2] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 09:38:23.559  INFO 13576 --- [TestNG-PoolService-2] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:38:25.694  INFO 13576 --- [TestNG-PoolService-2] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 10.913 seconds (JVM running for 15.9)
+2022-06-15 09:38:27.314  INFO 13576 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:38:27.344  INFO 13576 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:38:27.361  INFO 13576 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:38:27.379  INFO 13576 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:38:27.398  INFO 13576 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:38:27.415  INFO 13576 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:38:32.565  INFO 13576 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:38:32.651  INFO 13576 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:38:36.477  INFO 13576 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:38:52.850  INFO 13576 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:38:52.852  INFO 13576 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 09:38:52.868  INFO 13576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 09:38:52.876  INFO 13576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 09:40:39.946  INFO 8824 --- [main] com.selspring.googletest.Google2Test     : Starting Google2Test using Java 16.0.2 on DESKTOP-DQKOM4J with PID 8824 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 09:40:39.950  INFO 8824 --- [main] com.selspring.googletest.Google2Test     : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 09:40:41.317  INFO 8824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 09:40:41.626  INFO 8824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 275 ms. Found 1 JPA repository interfaces.
+2022-06-15 09:40:43.786  INFO 8824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 09:40:44.351  INFO 8824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 09:40:44.660  INFO 8824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 09:40:44.882  INFO 8824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 09:40:45.401  INFO 8824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 09:40:45.838  INFO 8824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 09:40:47.681  INFO 8824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 09:40:47.714  INFO 8824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:40:50.177  INFO 8824 --- [main] com.selspring.googletest.Google2Test     : Started Google2Test in 11.107 seconds (JVM running for 14.447)
+2022-06-15 09:40:51.107  INFO 8824 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 09:40:51.160  INFO 8824 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 09:40:53.888  INFO 8824 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 09:41:02.501  INFO 8824 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 09:41:02.503  INFO 8824 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 09:41:02.517  INFO 8824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 09:41:02.569  INFO 8824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:16:02.665  INFO 1156 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 1156 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:16:02.672  INFO 1156 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:16:04.964  INFO 1156 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:16:05.302  INFO 1156 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 289 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:16:08.960  INFO 1156 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:16:09.759  INFO 1156 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:16:10.106  INFO 1156 --- [TestNG-PoolService-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:16:10.399  INFO 1156 --- [TestNG-PoolService-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:16:12.196  INFO 1156 --- [TestNG-PoolService-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:16:13.831  INFO 1156 --- [TestNG-PoolService-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:16:17.935  INFO 1156 --- [TestNG-PoolService-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:16:17.995  INFO 1156 --- [TestNG-PoolService-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:16:23.756  INFO 1156 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 24.152 seconds (JVM running for 35.583)
+2022-06-15 13:16:27.161  INFO 1156 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:16:27.219  INFO 1156 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:16:27.247  INFO 1156 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:16:27.260  INFO 1156 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:16:41.330  INFO 1156 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:16:41.330  INFO 1156 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:16:58.262  INFO 1156 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 13:16:58.265  INFO 1156 --- [TestNG-PoolService-1] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 13:16:58.330  INFO 1156 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 13:16:58.332  INFO 1156 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20be3c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7b81e5b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@344a6c0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56d99e65, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b91628f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7f49ba28, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@591d71a7, org.springframework.test.context.event.EventPublishingTestExecutionListener@432df657, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43a871a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71820b00, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4320dcde, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f1305a3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6fb674af, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@e0da852]
+2022-06-15 13:16:58.396  INFO 1156 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:16:58.411  INFO 1156 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:17:03.922  INFO 1156 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:17:13.544  INFO 1156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:17:13.544  INFO 1156 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:17:13.554  INFO 1156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:17:13.569  INFO 1156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:19:01.204  INFO 4676 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 4676 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:19:01.210  INFO 4676 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:19:03.515  INFO 4676 --- [TestNG-PoolService-0] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:19:03.827  INFO 4676 --- [TestNG-PoolService-0] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 273 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:19:06.566  INFO 4676 --- [TestNG-PoolService-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:19:07.352  INFO 4676 --- [TestNG-PoolService-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:19:07.757  INFO 4676 --- [TestNG-PoolService-0] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:19:08.012  INFO 4676 --- [TestNG-PoolService-0] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:19:08.983  INFO 4676 --- [TestNG-PoolService-0] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:19:10.054  INFO 4676 --- [TestNG-PoolService-0] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:19:12.071  INFO 4676 --- [TestNG-PoolService-0] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:19:12.102  INFO 4676 --- [TestNG-PoolService-0] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:19:16.207  INFO 4676 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 16.767 seconds (JVM running for 26.561)
+2022-06-15 13:19:18.602  INFO 4676 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:19:18.652  INFO 4676 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:19:18.671  INFO 4676 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:19:18.685  INFO 4676 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:19:28.450  INFO 4676 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:19:28.493  INFO 4676 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:19:41.517  INFO 4676 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:19:43.470  INFO 4676 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:19:54.137  INFO 4676 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 13:19:54.140  INFO 4676 --- [TestNG-PoolService-1] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 13:19:54.154  INFO 4676 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 13:19:54.156  INFO 4676 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f69767, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@719b1cb0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@427aa3af, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20d85800, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17a2bed3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e755e0b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2985f5b1, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b7fb0d9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4929db43, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5db8416b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b960f10, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d5995c3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6a2db8e8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@75811fdf]
+2022-06-15 13:19:54.212 ERROR 4676 --- [Forwarding quit on session 68c503f5ce09df9a236888641e9a1680 to remote] org.openqa.selenium.os.OsProcess         : Unable to kill process Process[pid=7760, exitValue=1]
+2022-06-15 13:19:54.221  INFO 4676 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 13:19:54.222  INFO 4676 --- [TestNG-PoolService-0] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 13:19:54.230  INFO 4676 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 13:19:54.232  INFO 4676 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e330f43, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7227a2ff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6b3b5380, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@744f23a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32c0737b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7dbf0f86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c29e4e2, org.springframework.test.context.event.EventPublishingTestExecutionListener@4176bcd2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@709c542c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@755aa686, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76d7523b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@233f01f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@109ce941, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@30521342]
+2022-06-15 13:19:54.301  INFO 4676 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:19:54.327  INFO 4676 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:19:54.341  INFO 4676 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:19:54.385  INFO 4676 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:19:58.780  INFO 4676 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:19:59.497  INFO 4676 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:20:06.575  INFO 4676 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:20:08.057  INFO 4676 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:20:14.352  INFO 4676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:20:14.353  INFO 4676 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:20:14.362  INFO 4676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:20:14.388  INFO 4676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:21:38.513  INFO 1068 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 1068 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:21:38.571  INFO 1068 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:21:42.033  INFO 1068 --- [TestNG-PoolService-0] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:21:43.019  INFO 1068 --- [TestNG-PoolService-0] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 879 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:21:46.647  INFO 1068 --- [TestNG-PoolService-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:21:49.254  INFO 1068 --- [TestNG-PoolService-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:21:49.846  INFO 1068 --- [TestNG-PoolService-0] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:21:50.253  INFO 1068 --- [TestNG-PoolService-0] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:21:50.945  INFO 1068 --- [TestNG-PoolService-0] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:21:51.427  INFO 1068 --- [TestNG-PoolService-0] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:21:53.422  INFO 1068 --- [TestNG-PoolService-0] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:21:53.451  INFO 1068 --- [TestNG-PoolService-0] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:21:57.850  INFO 1068 --- [TestNG-PoolService-0] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 21.514 seconds (JVM running for 28.116)
+2022-06-15 13:22:01.424  INFO 1068 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:22:01.557  INFO 1068 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:22:01.732  INFO 1068 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:22:01.749  INFO 1068 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:22:12.192  INFO 1068 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:22:12.195  INFO 1068 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:22:22.203  INFO 1068 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:22:24.687  INFO 1068 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:22:27.469  INFO 1068 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 13:22:27.472  INFO 1068 --- [TestNG-PoolService-1] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 13:22:27.530  INFO 1068 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 13:22:27.534  INFO 1068 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@105762f7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22489865, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4cfcdc81, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@38c91d95, org.springframework.test.context.support.DirtiesContextTestExecutionListener@132280a1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@754fa910, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f7d6bec, org.springframework.test.context.event.EventPublishingTestExecutionListener@2f28f023, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28885aef, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@208761c7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@14115c30, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7cd01f79, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@16656d2e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@d77af7c]
+2022-06-15 13:22:27.587  INFO 1068 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:22:27.700  INFO 1068 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:22:29.364  INFO 1068 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 13:22:29.368  INFO 1068 --- [TestNG-PoolService-0] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 13:22:29.381  INFO 1068 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 13:22:29.393  INFO 1068 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@62cb634, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@33aaa665, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c31e2e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33a49cda, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50da018c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@36a51c7c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@298856e8, org.springframework.test.context.event.EventPublishingTestExecutionListener@3e5d4d4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e0bfd69, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20d35028, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b077dcc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1fe466d6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ee530f6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@440d6d12]
+2022-06-15 13:22:29.511  INFO 1068 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:22:29.548  INFO 1068 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:22:34.380  INFO 1068 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:22:34.380  INFO 1068 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:22:43.004  INFO 1068 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:22:43.095  INFO 1068 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:22:47.955  INFO 1068 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:22:47.965  INFO 1068 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:22:47.972  INFO 1068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:22:47.980  INFO 1068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:24:34.410  INFO 15728 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 15728 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:24:34.414  INFO 15728 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:24:35.189  WARN 15728 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class]; nested exception is java.nio.file.FileSystemException: C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class: The process cannot access the file because it is being used by another process
+2022-06-15 13:24:35.380 ERROR 15728 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class]; nested exception is java.nio.file.FileSystemException: C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class: The process cannot access the file because it is being used by another process
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:457) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-2.6.7.jar:2.6.7]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:149) ~[spring-test-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.1.0.jar:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) ~[testng-7.1.0.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:587) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1007) ~[testng-7.1.0.jar:na]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:na]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:na]
+Caused by: java.nio.file.FileSystemException: C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426) ~[na:na]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[na:na]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[na:na]
+	at org.springframework.core.io.FileSystemResource.getInputStream(FileSystemResource.java:186) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429) ~[spring-context-5.3.19.jar:5.3.19]
+	... 49 common frames omitted
+
+2022-06-15 13:24:35.390 ERROR 15728 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@14008db3] to prepare test instance [com.selspring.googletest.MultiBrowserTest@1f75a668]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:149) ~[spring-test-5.3.19.jar:5.3.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176) ~[testng-7.1.0.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.1.0.jar:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:766) ~[testng-7.1.0.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:587) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) ~[testng-7.1.0.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.runSuites(TestNG.java:1039) ~[testng-7.1.0.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1007) ~[testng-7.1.0.jar:na]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:na]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class]; nested exception is java.nio.file.FileSystemException: C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class: The process cannot access the file because it is being used by another process
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:457) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-2.6.7.jar:2.6.7]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.19.jar:5.3.19]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.19.jar:5.3.19]
+	... 30 common frames omitted
+Caused by: java.nio.file.FileSystemException: C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes\com\selspring\bdd\CucumberHooks.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426) ~[na:na]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[na:na]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[na:na]
+	at org.springframework.core.io.FileSystemResource.getInputStream(FileSystemResource.java:186) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429) ~[spring-context-5.3.19.jar:5.3.19]
+	... 49 common frames omitted
+
+2022-06-15 13:29:28.138  INFO 16288 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Starting GoogleSteps using Java 16.0.2 on DESKTOP-DQKOM4J with PID 16288 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:29:28.142  INFO 16288 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:29:30.424  INFO 16288 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:29:30.732  INFO 16288 --- [TestNG-PoolService-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:29:33.366  INFO 16288 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:29:33.947  INFO 16288 --- [TestNG-PoolService-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:29:34.223  INFO 16288 --- [TestNG-PoolService-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:29:34.464  INFO 16288 --- [TestNG-PoolService-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:29:35.140  INFO 16288 --- [TestNG-PoolService-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:29:35.690  INFO 16288 --- [TestNG-PoolService-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:29:37.591  INFO 16288 --- [TestNG-PoolService-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:29:37.615  INFO 16288 --- [TestNG-PoolService-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:29:40.323  INFO 16288 --- [TestNG-PoolService-1] com.selspring.bdd.GoogleSteps            : Started GoogleSteps in 13.549 seconds (JVM running for 21.978)
+2022-06-15 13:29:42.039  INFO 16288 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:29:42.100  INFO 16288 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:29:42.123  INFO 16288 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:29:42.144  INFO 16288 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:29:42.166  INFO 16288 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:29:42.188  INFO 16288 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:29:42.216  INFO 16288 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:29:42.229  INFO 16288 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:29:55.211  INFO 16288 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:29:58.882  INFO 16288 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:29:58.957  INFO 16288 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:30:00.261  INFO 16288 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:30:11.941  INFO 16288 --- [TestNG-PoolService-3] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:30:12.193  INFO 16288 --- [TestNG-PoolService-2] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:30:12.406  INFO 16288 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:30:12.460  INFO 16288 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 13:30:20.345  INFO 16288 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:30:20.346  INFO 16288 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:30:20.353  INFO 16288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:30:20.368  INFO 16288 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:31:16.097  INFO 14584 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 14584 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:31:16.101  INFO 14584 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:31:17.634  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:31:17.930  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 258 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:31:20.233  INFO 14584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:31:20.749  INFO 14584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:31:21.023  INFO 14584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:31:21.287  INFO 14584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:31:21.900  INFO 14584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:31:22.384  INFO 14584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:31:24.157  INFO 14584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:31:24.196  INFO 14584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:31:26.517  INFO 14584 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.272 seconds (JVM running for 14.716)
+2022-06-15 13:31:27.403  INFO 14584 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:31:27.431  INFO 14584 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:31:30.602  INFO 14584 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:31:33.153  INFO 14584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:31:33.155  INFO 14584 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:31:33.171  INFO 14584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:31:33.183  INFO 14584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:32:30.447  INFO 9448 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 9448 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:32:30.451  INFO 9448 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:32:31.861  INFO 9448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:32:32.160  INFO 9448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 268 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:32:34.322  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:32:34.851  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:32:35.123  INFO 9448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:32:35.322  INFO 9448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:32:35.828  INFO 9448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:32:36.271  INFO 9448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:32:38.046  INFO 9448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:32:38.074  INFO 9448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:32:40.458  INFO 9448 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.859 seconds (JVM running for 14.666)
+2022-06-15 13:32:40.566  INFO 9448 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:32:40.574  INFO 9448 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:32:40.601  INFO 9448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:32:40.609  INFO 9448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:33:30.322  INFO 15788 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 15788 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:33:30.325  INFO 15788 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:33:31.783  INFO 15788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:33:32.049  INFO 15788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 227 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:33:34.254  INFO 15788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:33:34.755  INFO 15788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:33:34.981  INFO 15788 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:33:35.175  INFO 15788 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:33:35.666  INFO 15788 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:33:36.170  INFO 15788 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:33:37.630  INFO 15788 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:33:37.656  INFO 15788 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:33:39.524  INFO 15788 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.04 seconds (JVM running for 14.126)
+2022-06-15 13:33:40.253  INFO 15788 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:33:40.290  INFO 15788 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:33:42.279  INFO 15788 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:33:44.258  INFO 15788 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:33:44.275  INFO 15788 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:33:44.293  INFO 15788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:33:44.311  INFO 15788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:35:19.337  INFO 4776 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 4776 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:35:19.343  INFO 4776 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:35:20.814  INFO 4776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:35:21.091  INFO 4776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:35:23.278  INFO 4776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:35:23.901  INFO 4776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:35:24.201  INFO 4776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:35:24.402  INFO 4776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:35:24.946  INFO 4776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:35:25.476  INFO 4776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:35:27.250  INFO 4776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:35:27.277  INFO 4776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:35:29.617  INFO 4776 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.231 seconds (JVM running for 15.024)
+2022-06-15 13:35:30.418  INFO 4776 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:35:30.464  INFO 4776 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:35:33.353  INFO 4776 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:35:37.590  INFO 4776 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:35:37.593  INFO 4776 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:35:37.600  INFO 4776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:35:37.606  INFO 4776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:37:08.032  INFO 12168 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 12168 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:37:08.036  INFO 12168 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:37:09.589  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:37:09.889  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 265 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:37:11.981  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:37:12.475  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:37:12.726  INFO 12168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:37:12.963  INFO 12168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:37:13.462  INFO 12168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:37:13.932  INFO 12168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:37:15.695  INFO 12168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:37:15.728  INFO 12168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:37:18.135  INFO 12168 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.944 seconds (JVM running for 15.002)
+2022-06-15 13:37:18.963  INFO 12168 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:37:19.003  INFO 12168 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:37:21.945  INFO 12168 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:37:25.001  INFO 12168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:37:25.004  INFO 12168 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:37:25.019  INFO 12168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:37:25.035  INFO 12168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:39:18.140  INFO 14776 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 14776 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:39:18.145  INFO 14776 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:39:19.633  INFO 14776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:39:19.892  INFO 14776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 227 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:39:21.973  INFO 14776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:39:22.477  INFO 14776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:39:22.773  INFO 14776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:39:23.013  INFO 14776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:39:23.562  INFO 14776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:39:24.074  INFO 14776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:39:25.867  INFO 14776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:39:25.904  INFO 14776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:39:28.580  INFO 14776 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.402 seconds (JVM running for 15.455)
+2022-06-15 13:39:29.405  INFO 14776 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:39:29.444  INFO 14776 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:39:32.099  INFO 14776 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:39:34.118  INFO 14776 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:39:34.120  INFO 14776 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:39:34.130  INFO 14776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:39:34.138  INFO 14776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:40:02.417  INFO 12508 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 12508 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:40:02.420  INFO 12508 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:40:03.772  INFO 12508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:40:04.062  INFO 12508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 261 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:40:06.106  INFO 12508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:40:06.598  INFO 12508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:40:06.876  INFO 12508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:40:07.085  INFO 12508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:40:07.587  INFO 12508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:40:08.085  INFO 12508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:40:09.741  INFO 12508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:40:09.773  INFO 12508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:40:11.978  INFO 12508 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.371 seconds (JVM running for 14.178)
+2022-06-15 13:40:12.722  INFO 12508 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:40:12.768  INFO 12508 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:40:15.851  INFO 12508 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:40:19.825  INFO 12508 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:40:19.840  INFO 12508 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:40:19.884  INFO 12508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:40:19.935  INFO 12508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:41:22.071  INFO 16328 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 16328 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:41:22.075  INFO 16328 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:41:23.414  INFO 16328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:41:23.696  INFO 16328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:41:25.908  INFO 16328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:41:26.427  INFO 16328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:41:26.718  INFO 16328 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:41:26.920  INFO 16328 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:41:27.422  INFO 16328 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:41:27.859  INFO 16328 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:41:29.528  INFO 16328 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:41:29.579  INFO 16328 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:41:31.841  INFO 16328 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.596 seconds (JVM running for 14.571)
+2022-06-15 13:41:32.673  INFO 16328 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:41:32.723  INFO 16328 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:41:35.220  INFO 16328 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:41:37.352  INFO 16328 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:41:37.354  INFO 16328 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:41:37.372  INFO 16328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:41:37.376  INFO 16328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:44:40.535  INFO 14792 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 14792 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:44:40.539  INFO 14792 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:44:42.016  INFO 14792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:44:42.297  INFO 14792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:44:44.579  INFO 14792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:44:45.134  INFO 14792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:44:45.429  INFO 14792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:44:45.636  INFO 14792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:44:46.172  INFO 14792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:44:46.695  INFO 14792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:44:48.516  INFO 14792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:44:48.546  INFO 14792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:44:50.891  INFO 14792 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.243 seconds (JVM running for 14.3)
+2022-06-15 13:44:51.735  INFO 14792 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:44:51.772  INFO 14792 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:44:54.361  INFO 14792 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:44:56.646  INFO 14792 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:44:56.647  INFO 14792 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:44:56.655  INFO 14792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:44:56.672  INFO 14792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:47:27.065  INFO 10688 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 10688 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:47:27.068  INFO 10688 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:47:28.518  INFO 10688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:47:28.821  INFO 10688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 271 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:47:31.041  INFO 10688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:47:31.624  INFO 10688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:47:31.903  INFO 10688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:47:32.103  INFO 10688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:47:32.647  INFO 10688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:47:33.156  INFO 10688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:47:35.027  INFO 10688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:47:35.054  INFO 10688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:47:37.380  INFO 10688 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.164 seconds (JVM running for 14.317)
+2022-06-15 13:47:38.098  INFO 10688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:47:38.112  INFO 10688 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:47:38.184  INFO 10688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:47:38.233  INFO 10688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:48:38.519  INFO 15848 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 15848 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:48:38.523  INFO 15848 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:48:39.921  INFO 15848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:48:40.223  INFO 15848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 277 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:48:42.514  INFO 15848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:48:43.004  INFO 15848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:48:43.271  INFO 15848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:48:43.485  INFO 15848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:48:44.025  INFO 15848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:48:44.535  INFO 15848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:48:46.594  INFO 15848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:48:46.618  INFO 15848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:48:48.936  INFO 15848 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 11.261 seconds (JVM running for 14.436)
+2022-06-15 13:48:49.859  INFO 15848 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:48:49.890  INFO 15848 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:48:52.855  INFO 15848 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:48:55.183  INFO 15848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:48:55.184  INFO 15848 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:48:55.190  INFO 15848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:48:55.197  INFO 15848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:50:05.241  INFO 3504 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 3504 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:50:05.245  INFO 3504 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:50:06.542  INFO 3504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:50:06.795  INFO 3504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:50:08.593  INFO 3504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:50:08.980  INFO 3504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:50:09.223  INFO 3504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:50:09.410  INFO 3504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:50:09.903  INFO 3504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:50:10.382  INFO 3504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:50:11.936  INFO 3504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:50:11.961  INFO 3504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:50:14.040  INFO 3504 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 9.619 seconds (JVM running for 12.483)
+2022-06-15 13:50:14.715  INFO 3504 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:50:14.760  INFO 3504 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:50:16.895  INFO 3504 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:50:19.027  INFO 3504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:50:19.041  INFO 3504 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:50:19.061  INFO 3504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:50:19.097  INFO 3504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 13:51:32.934  INFO 13916 --- [main] c.selspring.googletest.MultiBrowserTest  : Starting MultiBrowserTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 13916 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 13:51:32.937  INFO 13916 --- [main] c.selspring.googletest.MultiBrowserTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 13:51:34.361  INFO 13916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 13:51:34.641  INFO 13916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 257 ms. Found 1 JPA repository interfaces.
+2022-06-15 13:51:36.792  INFO 13916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 13:51:37.350  INFO 13916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 13:51:37.634  INFO 13916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 13:51:37.824  INFO 13916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 13:51:38.376  INFO 13916 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 13:51:38.876  INFO 13916 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 13:51:40.525  INFO 13916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 13:51:40.559  INFO 13916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:51:42.851  INFO 13916 --- [main] c.selspring.googletest.MultiBrowserTest  : Started MultiBrowserTest in 10.762 seconds (JVM running for 14.206)
+2022-06-15 13:51:43.713  INFO 13916 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 13:51:43.750  INFO 13916 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 13:51:46.149  INFO 13916 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 13:51:48.337  INFO 13916 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 13:51:48.340  INFO 13916 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 13:51:48.353  INFO 13916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 13:51:48.366  INFO 13916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 14:36:11.202  INFO 2728 --- [main] com.selspring.flights.FlightTest         : Starting FlightTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 2728 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 14:36:11.208  INFO 2728 --- [main] com.selspring.flights.FlightTest         : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 14:36:12.634  INFO 2728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 14:36:12.901  INFO 2728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 1 JPA repository interfaces.
+2022-06-15 14:36:15.408  INFO 2728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 14:36:15.941  INFO 2728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 14:36:16.181  INFO 2728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 14:36:16.397  INFO 2728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 14:36:17.043  INFO 2728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 14:36:17.642  INFO 2728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 14:36:19.052  INFO 2728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 14:36:19.091  INFO 2728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:36:20.980  INFO 2728 --- [main] com.selspring.flights.FlightTest         : Started FlightTest in 10.588 seconds (JVM running for 14.74)
+2022-06-15 14:36:21.805  INFO 2728 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:36:21.850  INFO 2728 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:36:25.994  INFO 2728 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:36:34.848  INFO 2728 --- [TestNG-PoolService-2] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 14:36:34.852  INFO 2728 --- [TestNG-PoolService-2] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 14:36:34.898  INFO 2728 --- [TestNG-PoolService-2] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 14:36:34.845  INFO 2728 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 14:36:34.916  INFO 2728 --- [TestNG-PoolService-0] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 14:36:34.844  INFO 2728 --- [TestNG-PoolService-3] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 14:36:34.923  INFO 2728 --- [TestNG-PoolService-3] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 14:36:34.926  INFO 2728 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 14:36:34.936  INFO 2728 --- [TestNG-PoolService-3] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 14:36:34.940  INFO 2728 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.selspring.bdd.GoogleSteps], using SpringBootContextLoader
+2022-06-15 14:36:34.941  INFO 2728 --- [TestNG-PoolService-1] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.selspring.bdd.GoogleSteps]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-15 14:36:34.948  INFO 2728 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-15 14:36:34.970  INFO 2728 --- [TestNG-PoolService-1] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@132bce99, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d0f41f7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@123d51a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@219dfa36, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c0fa79a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b284315, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@33609ba5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7de29bb5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c40c0e4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@65f91692, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5273043b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ba512f3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5188b283, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7ce873a6]
+2022-06-15 14:36:34.970  INFO 2728 --- [TestNG-PoolService-0] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68958457, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@38244006, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31704e73, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b3816ce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4fcb9cc2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5575c14d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66450e46, org.springframework.test.context.event.EventPublishingTestExecutionListener@2d00fa26, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e3e5ec8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@453a8feb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@bc38e34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@213884a0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d3c4651, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7ce8d9ca]
+2022-06-15 14:36:34.971  INFO 2728 --- [TestNG-PoolService-3] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@25f7f1e1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4982395f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a67ecdf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a4bb54d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50293d1c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@839be87, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1dadaa4b, org.springframework.test.context.event.EventPublishingTestExecutionListener@a5b856e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@138388e4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@568bd195, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2684d6fd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70a247b6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7fe935ee, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@77e644ff]
+2022-06-15 14:36:34.973  INFO 2728 --- [TestNG-PoolService-2] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@466bc971, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@49442e19, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@240a15a3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@633ddb37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b05b660, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d96bff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@678ad32a, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ae3588f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c034505, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@64dd47e9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55ffcbdb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2528d6cb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3a59406, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@d496994]
+2022-06-15 14:36:35.650  INFO 2728 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:36:35.660  INFO 2728 --- [TestNG-PoolService-2] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:36:35.670  INFO 2728 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:36:35.683  INFO 2728 --- [TestNG-PoolService-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:36:35.699  INFO 2728 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:36:35.709  INFO 2728 --- [TestNG-PoolService-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:36:35.724  INFO 2728 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:36:35.736  INFO 2728 --- [TestNG-PoolService-0] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:36:46.478  INFO 2728 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:36:47.709  INFO 2728 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:36:47.773  INFO 2728 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:36:47.878  INFO 2728 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:37:02.560  INFO 2728 --- [TestNG-PoolService-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:37:03.782  INFO 2728 --- [TestNG-PoolService-3] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:37:04.587  INFO 2728 --- [TestNG-PoolService-0] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:37:05.006  INFO 2728 --- [TestNG-PoolService-2] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:37:16.437  INFO 2728 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:37:16.438  INFO 2728 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 14:37:16.530  INFO 2728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 14:37:16.547  INFO 2728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 14:40:46.866  INFO 14968 --- [main] com.selspring.resourcetest.ResourceTest  : Starting ResourceTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 14968 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 14:40:46.871  INFO 14968 --- [main] com.selspring.resourcetest.ResourceTest  : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 14:40:49.529  INFO 14968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 14:40:49.960  INFO 14968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 393 ms. Found 1 JPA repository interfaces.
+2022-06-15 14:40:53.573  INFO 14968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 14:40:54.337  INFO 14968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 14:40:54.722  INFO 14968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 14:40:55.104  INFO 14968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 14:40:56.072  INFO 14968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 14:40:56.828  INFO 14968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 14:40:59.418  INFO 14968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 14:40:59.444  INFO 14968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:41:02.079  INFO 14968 --- [main] com.selspring.resourcetest.ResourceTest  : Started ResourceTest in 17.047 seconds (JVM running for 21.017)
+2022-06-15 14:41:05.556  INFO 14968 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:41:05.558  INFO 14968 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 14:41:05.585  INFO 14968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 14:41:05.615  INFO 14968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-15 14:43:02.520  INFO 15664 --- [main] com.selspring.visa.UserVisaTest          : Starting UserVisaTest using Java 16.0.2 on DESKTOP-DQKOM4J with PID 15664 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-06-15 14:43:02.525  INFO 15664 --- [main] com.selspring.visa.UserVisaTest          : No active profile set, falling back to 1 default profile: "default"
+2022-06-15 14:43:03.965  INFO 15664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 14:43:04.224  INFO 15664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 231 ms. Found 1 JPA repository interfaces.
+2022-06-15 14:43:06.285  INFO 15664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 14:43:06.808  INFO 15664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 14:43:07.080  INFO 15664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 14:43:07.263  INFO 15664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-15 14:43:07.799  INFO 15664 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-15 14:43:08.244  INFO 15664 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-15 14:43:09.811  INFO 15664 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 14:43:09.827  INFO 15664 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:43:11.758  INFO 15664 --- [main] com.selspring.visa.UserVisaTest          : Started UserVisaTest in 10.075 seconds (JVM running for 13.733)
+2022-06-15 14:43:12.453  INFO 15664 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 102.0.5005.61 (since Google Chrome 102 is installed in your machine)
+2022-06-15 14:43:12.493  INFO 15664 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\102.0.5005.61\chromedriver.exe
+2022-06-15 14:43:14.709  INFO 15664 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-06-15 14:43:20.907  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:25.100  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:26.969  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:28.951  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:29.946  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:31.525  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:32.304  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:33.774  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:34.532  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:36.019  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:36.766  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:38.015  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:38.794  INFO 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-06-15 14:43:40.018  WARN 15664 --- [main] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-06-15 14:43:40.038  INFO 15664 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 14:43:40.040  INFO 15664 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-15 14:43:40.055  INFO 15664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-15 14:43:40.067  INFO 15664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

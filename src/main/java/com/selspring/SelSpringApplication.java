@@ -1,0 +1,13 @@
+package com.selspring;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SelSpringApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SelSpringApplication.class, args);
+	}
+
+}

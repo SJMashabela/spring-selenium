@@ -1,0 +1,22 @@
+2022-05-25 10:16:30.064  INFO 18196 --- [TestNG-tests-1] com.selspring.visa.UserVisaTest          : Starting UserVisaTest using Java 18.0.1.1 on DESKTOP-DQKOM4J with PID 18196 (C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring\target\test-classes started by sefak in C:\Users\sefak\OneDrive\Desktop\Springboot\sel-spring)
+2022-05-25 10:16:30.067  INFO 18196 --- [TestNG-tests-1] com.selspring.visa.UserVisaTest          : No active profile set, falling back to 1 default profile: "default"
+2022-05-25 10:16:31.750  INFO 18196 --- [TestNG-tests-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-25 10:16:31.946  INFO 18196 --- [TestNG-tests-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 1 JPA repository interfaces.
+2022-05-25 10:16:33.758  INFO 18196 --- [TestNG-tests-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-25 10:16:34.243  INFO 18196 --- [TestNG-tests-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-25 10:16:34.448  INFO 18196 --- [TestNG-tests-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-25 10:16:34.643  INFO 18196 --- [TestNG-tests-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-25 10:16:35.028  INFO 18196 --- [TestNG-tests-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-25 10:16:35.315  INFO 18196 --- [TestNG-tests-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-25 10:16:36.574  INFO 18196 --- [TestNG-tests-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-25 10:16:36.589  INFO 18196 --- [TestNG-tests-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-25 10:16:38.571  INFO 18196 --- [TestNG-tests-1] com.selspring.visa.UserVisaTest          : Started UserVisaTest in 9.393 seconds (JVM running for 13.825)
+2022-05-25 10:16:39.206  INFO 18196 --- [TestNG-tests-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 101.0.4951.41 (since Google Chrome 101 is installed in your machine)
+2022-05-25 10:16:39.230  INFO 18196 --- [TestNG-tests-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\sefak\.m2\repository\webdriver\chromedriver\win32\101.0.4951.41\chromedriver.exe
+2022-05-25 10:16:46.173  INFO 18196 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2022-05-25 10:16:52.634  INFO 18196 --- [TestNG-tests-1] c.s.page.visa.VisaRegistrationPage       : Getting names
+2022-05-25 10:16:54.503  WARN 18196 --- [TestNG-tests-1] c.s.page.visa.VisaRegistrationPage       : Found name
+2022-05-25 10:16:54.534  INFO 18196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-25 10:16:54.535  INFO 18196 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-25 10:16:54.541  INFO 18196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-25 10:16:54.548  INFO 18196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
